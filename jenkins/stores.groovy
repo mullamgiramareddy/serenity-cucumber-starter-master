@@ -1,7 +1,7 @@
 pipeline {
   agent any
   tools{
-  JAVA_HOME 'jdk-17'
+  jdk 'jdk17'
   }
 
   parameters {
