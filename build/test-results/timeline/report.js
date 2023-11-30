@@ -1,0 +1,4 @@
+$(document).ready(function() {
+CucumberHTML.timelineItems.pushArray([{"id":"b8e3a8ac-efb1-470a-bf85-bf58c2c41cf3","feature":"Search by keyword","scenario":"Search zones and validate","start":1701342049859,"group":21,"content":"","tags":"@smoke,@jira-0001,","end":1701342064934,"className":"failed"},{"id":"4c945a2c-38c5-4b99-9186-1a2fcbffe49c","feature":"Search by keyword","scenario":"Assign zones and validate zone count","start":1701342049583,"group":20,"content":"","tags":"@smoke,@jira-0002,","end":1701342065744,"className":"failed"}]);
+CucumberHTML.timelineGroups.pushArray([{"id":20,"content":"Thread[ForkJoinPool-2-worker-1,5,main]"},{"id":21,"content":"Thread[ForkJoinPool-2-worker-2,5,main]"}]);
+});

@@ -18,7 +18,7 @@ pipeline {
      
         }
       }        
-    }
+   
     post {
  	 always {
    		cucumber buildStatus: 'UNCHANGED', customCssFiles: '', customJsFiles: '', failedFeaturesNumber: -1, failedScenariosNumber: -1, failedStepsNumber: -1, fileIncludePattern: '**/*.json', jsonReportDirectory: 'test-results', pendingStepsNumber: -1, skippedStepsNumber: -1, sortingMethod: 'ALPHABETICAL', undefinedStepsNumber: -1
@@ -27,3 +27,4 @@ pipeline {
     
   }
   }
+ }
