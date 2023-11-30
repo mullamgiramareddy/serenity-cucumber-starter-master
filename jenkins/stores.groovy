@@ -1,5 +1,8 @@
 pipeline {
   agent any
+  tools{
+  jdk 'jdk-17'
+  }
 
   parameters {
     choice(name: 'env', choices: ['QA','UAT'])
