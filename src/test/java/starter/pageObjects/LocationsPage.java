@@ -10,7 +10,7 @@ import java.time.Duration;
 public class LocationsPage extends UIInteractionSteps {
     public static Target DIV_LOCATION = Target.the("Header Content").locatedBy("//div[text()='Location']").waitingForNoMoreThan(Duration.ofSeconds(60));
     public static Target LABEL_MACYS = Target.the("Header Content").locatedBy("//label[not(contains(text(),'Backstage'))]").waitingForNoMoreThan(Duration.ofSeconds(60));
-    public static Target LABEL_MACYS_BACKSTAGE = Target.the("Header Content").locatedBy("//label[contains(text(),'Backtage')]").waitingForNoMoreThan(Duration.ofSeconds(60));
+    public static Target LABEL_MACYS_BACKSTAGE = Target.the("Header Content").locatedBy("//label[contains(text(),'Backstage')]").waitingForNoMoreThan(Duration.ofSeconds(60));
 
     public static Performable selectLocation(String location) {
     	if("Macys".equalsIgnoreCase(location)){
