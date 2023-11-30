@@ -4,6 +4,7 @@ pipeline {
   parameters {
     choice(name: 'env', choices: ['QA','UAT'])
   } 
+   stages{
     stage('Test') {
       steps {
         script {
@@ -16,4 +17,5 @@ pipeline {
       }
         
     }
+  }
   }
