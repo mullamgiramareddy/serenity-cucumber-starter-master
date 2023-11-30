@@ -22,16 +22,7 @@ pipeline {
  	{                
      success
  		{
-          publishHTML([allowMissing:
-false,
- alwaysLinkToLastBuild: false,
- keepAll: false,
- reportDir: 'target/site/serenity/',
- reportFiles: 'index.html',
- reportName: 'Serenity
- Report',
- reportTitles: '',
- useWrapperFileDirectly: true])    
+          publishHTML([allowMissing:false, alwaysLinkToLastBuild: false, keepAll: false, reportDir: 'target/site/serenity/', reportFiles: 'index.html', reportName: 'Serenity Report', reportTitles: '', useWrapperFileDirectly: true])    
  
 
                 }
